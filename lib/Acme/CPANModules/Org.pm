@@ -30,6 +30,6 @@ _
 =head1 DESCRIPTION
 
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 L<https://orgmode.org>
