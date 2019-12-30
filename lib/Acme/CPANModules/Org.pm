@@ -11,6 +11,7 @@ our $LIST = {
 _
     entries => [
         {module=>'Org::Parser'},
+        {module=>'Org::Parser::Tiny'},
         {module=>'Org::Dump'},
         {module=>'App::OrgUtils'},
         {module=>'Org::To::HTML'},
