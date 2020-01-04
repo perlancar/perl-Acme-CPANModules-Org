@@ -10,17 +10,21 @@ our $LIST = {
 
 _
     entries => [
-        {module=>'Org::Parser'},
-        {module=>'Org::Dump'},
-        {module=>'App::OrgUtils'},
-        {module=>'Org::To::HTML'},
-        {module=>'Org::To::Pod'},
-        {module=>'Org::To::VCF'},
-        {module=>'Org::To::HTML::WordPress'},
-        {module=>'Org::To::Text'},
+        {module=>'App::org2wp'},
         {module=>'App::orgsel'},
-        {module=>'Text::Table::Org'},
+        {module=>'App::OrgUtils'},
         {module=>'Data::CSel'},
+        {module=>'Data::Dmp::Org'},
+        {module=>'Org::Dump'},
+        {module=>'Org::Examples'},
+        {module=>'Org::Parser'},
+        {module=>'Org::Parser::Tiny'},
+        {module=>'Org::To::HTML'},
+        {module=>'Org::To::HTML::WordPress'},
+        {module=>'Org::To::Pod'},
+        {module=>'Org::To::Text'},
+        {module=>'Org::To::VCF'},
+        {module=>'Text::Table::Org'},
     ],
 };
 
