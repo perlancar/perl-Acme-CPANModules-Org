@@ -1,6 +1,8 @@
 package Acme::CPANModules::Org;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -11,6 +13,7 @@ our $LIST = {
 _
     entries => [
         {module=>'App::org2wp'},
+        {module=>'App::orgdaemon'},
         {module=>'App::orgsel'},
         {module=>'App::OrgUtils'},
         {module=>'Data::CSel'},
